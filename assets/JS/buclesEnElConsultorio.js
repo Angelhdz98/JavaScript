@@ -3,8 +3,8 @@ var contraseñaGuardado="ataqueArtesano23";
 var usuarioGuardado="angelhdz98";
 
 function logIn(){
-
-var intentos=0;
+int
+var intentos=0 ;
 var accessIn=false;
 
 while(accessIn=!true && intentos<3){
@@ -27,4 +27,5 @@ if(intentos==3){
 }
 
 }
+
 logIn();
