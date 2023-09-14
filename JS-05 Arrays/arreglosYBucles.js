@@ -161,11 +161,16 @@ let pacientesConsultorio=[{
     function carrera(posiciones){
         posiciones.unshift("Jorge");
         posiciones.unshift("Ramiro");
-        posiciones.splice(2,3,);
+        posiciones.splice(4,2,);
+        posiciones.splice(2,1)
         posiciones.push("José");
+        return posiciones;
 
     }
-
+    console.log(posicionCarreritasIni);
+    let posicionCarreritasFin=carrera(posicionCarreritasIni);
+    
+    console.log(posicionCarreritasFin);
     
     // Jorge adelanta roberto
     //ramiro adelanta a jorge
