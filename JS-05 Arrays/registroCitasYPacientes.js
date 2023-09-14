@@ -74,7 +74,7 @@
         console.log();
     })
     
-    //función para mostrar la indormación del paciente con su cita
+    //función para mostrar la información del paciente con su cita
     function mostrarInformación(paciente){
     console.log("nombre del paciente: "+paciente.nombre);
     console.log("edad del paciente: "+paciente.edad);
